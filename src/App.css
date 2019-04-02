@@ -1,0 +1,71 @@
+
+.Join {
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/05/23/02/notepad-926046_1280.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.Login {
+  float: right;
+  margin: 9%;
+  margin-right: 11%;
+}
+
+.Reg {
+  float: left;
+  margin: 9%;
+  margin-left: 10%;
+}
+
+#h1Reg, #h1Log, #NewUser {
+  font: italic bold 50px/70px Georgia, serif;
+  color :rgb(164, 231, 190);
+  
+}
+
+#formlabel {
+  color :	#2E8B57;
+  font-size: large;
+  font-variant: small-caps;
+  font-weight: bolder;
+
+}
+
+#logformlabel {
+  color : 	#8B0000;
+  font-size: 110%;
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+
+#err {
+  font: italic bold 30px/40px Georgia, serif;
+  color : rgb(223, 47, 85)
+}
+
+
+.home{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  
+}
+
+.edit, .new {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+#card {
+  margin-left: 40%;
+}
+
+.NewPB {
+  text-align: center
+}
+
+#err {
+  display: inline-block;
+}

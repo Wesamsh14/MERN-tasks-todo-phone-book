@@ -1,0 +1,104 @@
+.Feed {
+    width: 100%;
+    /* background-image: url("https://cdn.pixabay.com/photo/2015/09/05/23/02/notepad-926046_1280.jpg"); */
+   
+    height: 100vh;
+    background-color:		#FFF8DC;
+    background-repeat: repeat;
+    width: auto;
+    height: all;
+    
+  }
+  
+  #Welcome {
+    font: italic bold 50px/70px Georgia, serif;
+    color : rgb(164, 231, 190)
+  }
+  
+  #logOut {
+    text-align: center
+  }
+  
+  .Feed1{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  
+  .AddPhoneQuick {
+    float: left;
+    margin-left: 7%;
+  }
+  
+  #PhoneBook {
+    text-align: center;
+    font: italic bold 40px/40px Georgia, serif;
+    color : #8B0000;
+    -webkit-animation: mymove 5s infinite;
+  }
+  @-webkit-keyframes mymove {
+    from {color: red;}
+    to {color: blue;}
+  }
+  
+  #AddOne, #AddOneQ, #usersN {
+    font-variant: small-caps;
+    color : #DEB887;
+  }
+
+  #AddOne, #AddNew {
+    margin: 2px;
+    padding: auto;
+    display: inline-block;
+  }
+  
+  #OneAdded {
+    font-variant: small-caps;
+    color : 	#DC143C;
+  }
+  
+  .AddPhoneQuick, .ToDo, .GitHub {
+    display: inline-block;
+  }
+  
+  #bookInfo {
+    text-align: center;
+  }
+  
+  #fullName {
+    font-family: serif;
+    font-size: 30px;
+    color : 	 rgb(79, 156, 63)
+  }
+  
+  #name {
+    font-family: serif;
+    font-size: 30px;
+    color : #800000;
+  }
+  
+  #linkAdd {
+    color: white
+  }
+  
+  #tasks {
+    text-align: center;
+    font: italic bold 40px/40px Georgia, serif;
+    color : 	#000000;
+    -webkit-animation: mymove 5s infinite;
+  }
+  @-webkit-keyframes mymove {
+    from {color: red;}
+    to {color: blue;}
+  }
+  
+  /* .GitHub {
+    float: right;
+    margin-right: 7%;
+  } */
+  
+  .ToDo {
+    float: right;
+    margin-right: 12%;
+  }
+  
